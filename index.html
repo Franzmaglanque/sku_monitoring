@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SKU Monitoring</title>
+</head>
+<body style="background-image: url('test.jpg');">
+  <html>
+	<head>
+		<meta charset="utf-8">
+		  <link rel="stylesheet" href="css/style.css"> 
+		  <link rel="stylesheet" href="materialize.min.css">
+		  <link href="includes/showLoading/css/showLoading.css" rel="stylesheet" media="screen" /> 
+		<title>Login to Celyes</title>
+	</head>
+	<body class="login-body" id="activity_pane">
+		<!-- <body id="activity_pane"> -->
+
+		
+		<div class="row">
+			<div class="input-cart col s12 m10 push-m1 z-depth-2 grey lighten-5">
+				<div class="col s12 m5 login">
+					<h4 class="center">SKU Monitoring</h4>
+					<br>
+					<form action="check.php" method="post" autocomplete="off" id="skuform">
+						<div class="row">
+							<div class="input-field">
+								<input type="text"  name="sku" id="sku" class="validate" required="required">
+								<label for="user">SKU</label>
+							</div>	
+						</div>
+						
+						<div class="row">
+							<div class="switch col s6">
+							</div>
+							<div class="col s6">
+								<button type="submit" name="generate" class="btn waves-effect waves-light blue right skugenerate-toggle">Generate</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<!-- Signup form -->
+				<div class="col s12 m7 signup">
+				<div class="signupForm">
+					<h2 id="noitem" class="center"></h2>
+					<h6 class="" id="descriptioncenter"></h6>
+					<h6 class="" id="skucenter"></h6>
+					<h6 class="" id="datecenter"></h6>
+					<h6 class="" id="totalcenter"></h6>
+					<h6 id="price"></h6>
+
+					<table class="table table-striped table-hover table-responsive" id="skutable">
+							<th>Transaction#</th>
+							<th>Quantity Per Transaction</th>
+							<th>Total Price per transaction</th>
+						<tbody id="testing">
+							
+						</tbody>
+							
+						
+						
+					</table>
+					
+				</div>
+					<!-- <div class="signup-toggle center" > -->
+						<!-- <h4 class="center">Have No Accounts ? <a href="#!">Sign Up</a></h4> -->
+						
+						<!-- <h4>test</h4>
+					</div> -->
+				</div>
+				<div class="col s12">
+					<br>
+          <div class="legal center">
+					</div>
+					<div class="legal center">
+					<div class="col s12 m7 right">
+						<p class=" policy center"><b>Made by IT-Paso De Blas: Franz C. Maglanque.</b></p>
+					</div>
+					<div class="col s12 m5">
+						
+					</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="fixed-action-btn toolbar">
+			<a class="btn-floating btn-large amber black-text">
+				Zone6B
+			</a>
+			<ul>
+				<li><a class="indigo center" href="#!">Made By: Franz Maglanque</a></li>
+				<li><a class="blue center" href="#!">IT Paso De Blas</a></li>
+				<li><a class="red center" href="#!">Zone 6B</a></li>
+			</ul>
+		</div>
+			<script src="jquery-1.12.4.min.js"></script>
+		  	<script src="materialize.min.js"></script>
+			  <script type="text/javascript" src="includes/showLoading/js/jquery.showLoading.js"></script>
+	</body>
+</html>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
